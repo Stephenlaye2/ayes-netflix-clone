@@ -1,0 +1,363 @@
+@import url(//db.onlinewebfonts.com/c/0d5f8cc3c1312e1f7c94b4ccf48733c0?family=Netflix+Sans+Icon);
+
+body {
+  background: #141414;
+
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.hide{
+  display: none;
+}
+    .netflix-logo {
+      color: #e50914;
+      font-size: 1.3em;
+    }
+#main-nav{
+  background-color: inherit ;
+  height: 68px;
+.nav-link{
+  color: #e5e5e5;
+  font-size: 13px;
+
+  &.active{
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+  }
+  transition: color 0.4s ease;
+}
+.primary-nav{
+  position: absolute;
+
+}
+    #navbarCollapse {
+      ul {
+        width: 300px;
+        background-color: #141414e8;
+        margin-left: 2rem;
+        margin-top: .5rem;
+        // border-top: 1px solid #fff;
+        li{
+          margin: 0 auto;
+        }
+      }
+    }
+button .browse{
+  font-size: 13px;
+}
+.secondary-nav{
+  // position: relative;
+  margin-left: auto;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  
+  .nav-avatar{
+    background: url('../img/avatar.png') no-repeat center center/cover;
+    height: 40px;
+    width: 50%;
+    border-radius: 6px;
+    margin-right: 2rem;
+//  object-fit: contain;
+ .dropdown-toggle{
+   margin-left: 3rem;
+   font-size: 20px;
+   border-radius: 6px;
+ }
+
+  }
+    .dropdown-menu{
+      position: absolute;
+      left: -4rem;
+      top: 4rem;
+      background-color: #141414f5;
+      hr{
+        background-color: #e5e5e5a9;
+      }
+      a{
+
+        color: #e5e5e5;
+        font-size: 13px;
+        &:hover{
+          background-color: inherit;
+          text-decoration: underline;
+        }
+      }
+    }  
+}
+}
+.search-nav{
+.search-li{
+  display: none;
+}
+
+.search-li .input-group-text{
+  background: #141414;
+  border: 1px solid #fff;
+  border-right: none;
+  color: #fff;
+}
+#search{
+  background: inherit;
+  border: 1px solid #fff;
+  border-left: none;
+  color: #fff;
+}
+}
+
+.search-section{
+  margin-bottom: 60px;
+}
+
+.movie-img-div {
+  // position: relative;
+  border: 2px solid #141414;
+  height: 160px;
+  width: 100%;
+
+
+    .movie-div {
+      height: 150px;
+      width: 100%;
+      position: relative;
+      
+      .movie-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        position: absolute;
+      }
+    }
+    
+    &:hover{
+    transform: scaleZ(2);
+    transition: all 1s ease-in-out .4s;
+  
+ .movie-info{
+   position: absolute;
+   padding: .8rem;
+   width: 100%;
+   border-radius: 5px;
+   border: 1px solid #333;
+ }
+  }
+}
+   .movie-info{
+    background: #141414;
+    position: absolute;
+    font-size: 12px;
+    .fas, .far{
+      border: 1px #fff solid;
+      padding: .5rem;
+      margin-right: .4rem;
+      border-radius: 50%;
+      font-size: 8px;
+    }
+    .fa-play{
+      color: #141414;
+      background: #fff;
+    }
+  }
+  .red{
+    color: red;
+  }
+  .orange{
+    color: orange;
+  }
+  .green{
+    color: green;
+  }
+
+.popular-row, .trending-row, .top-rated-row, .upcoming-row, .all-row {
+  color: #fff;
+  margin:0 2rem;
+  margin-top: -1rem;
+}
+
+
+.slick-slider button:hover .slick-prev, .slick-next, .slick-arrow{
+  background-color: rgba(51, 51, 51, 0.521);
+  width: 2rem;
+  height: 90%;
+}
+
+  .slick-slider button.slick-arrow{
+    &::before{
+      font-size: 2rem !important;
+      color: #fff !important;
+  background: #333 !important;
+  }
+}
+
+#showcase{
+  .jumbotron{
+    background-position-y: top;
+    height: 95vh;
+    width: 100%;
+    font-size: 15px;
+    .left-content{
+      h1{
+        font-size: 25px;
+      }
+    button{
+      margin-top: 1rem;
+    }
+  }
+  .right-content{
+    margin-left: 90%;
+  }
+
+  .overlay{
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(51, 51, 51, 0.521);
+    
+    button{
+      border: none;
+    }
+    .more-info{
+     background-color: rgba(51, 51, 51, 0.521);
+     
+    }
+  }
+  }
+}
+
+#main-footer{
+  color: grey;
+  .fab{
+    font-size: 30px;
+    color: grey;
+    padding: .5rem;
+  
+    
+  }
+  a{
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .service-code{
+    padding-left: 5px;
+    width: 114px;
+  }
+}
+
+    .manage-profile{
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: #141414;
+      color: #fff;
+      z-index: 2500;
+      position: fixed;
+      .profile-content{
+        height: 100%;
+        width:100%;
+      }
+    
+      img{
+      width: 200px;
+      height: 190px;
+     object-fit: cover;
+      &:hover{
+        transform: scale(1.2);
+        transition: all 0.5s ease-in-out .2s;
+      }
+    }
+        p{
+  
+          color: grey;
+        }
+      .fa-plus-circle{
+        color: grey;
+        &:hover{
+          border: solid grey 1px;
+          background-color: #fff;
+          transition: all 0.5s ease-in-out .2s;
+        }
+      }
+       p{
+         color: grey;
+       }
+
+       .managepro{
+         padding: 6px 10px 0 10px;
+         color: grey;
+         &:hover {
+           border: 1px solid#fff !important;
+           color: #fff !important;
+           transition: all 0.5s ease-in-out 0.2s;
+         }
+       }
+    }
+
+    @media(max-width: 560px){
+      .primary-nav{
+        font-size: 12px;
+      }
+
+    #showcase{
+      .jumbotron{
+        font-size: 10px;
+        h1{
+          font-size: 20px;
+        }
+      }
+      .overlay{
+        height: 90vh;
+        bottom: 0;
+      }
+    
+    }
+    
+  }
+    @media(max-width: 620px){
+      .search-nav{
+        display: none;
+      }
+      .right-content{
+        display: none;
+      }
+      .movie-img-div{
+        .movie-info{
+          & > div{
+          background: #141414;
+          font-size: 5px;
+          .fas, .far{
+            padding: 4px;
+            font-size: 10px;
+          }
+        }
+        }
+      }
+    }
+    @media(max-width: 1000px){
+      #showcase{
+        .jumbotron{
+          font-size: 15px;
+          h1{
+            font-size: 25px;
+          }
+        }
+      }
+      .movie-img-div{
+      .movie-info{
+        background: #141414;
+        font-size: 10px;
+        .fas, .far{
+          font-size: 6px;
+        }
+      }
+    }
+    }
