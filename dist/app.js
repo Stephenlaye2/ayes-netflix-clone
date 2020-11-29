@@ -290,9 +290,9 @@ function randMovie(data){
     <button class="more-info text-light p-2 px-4"><i class="fas fa-info-circle"></i> More Info</button>
   </div>
   <div class="row mt-4">
-  <div class="col d-sm-none d-md-block  right-content">
-    <i class="fas fa-volume-up"></i>
-  </div>
+    <div class="col d-sm-none d-md-block  right-content">
+     <i class="fas fa-volume-up"></i>
+    </div>
   </div>
 </div>
   `;

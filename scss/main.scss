@@ -172,7 +172,7 @@ button .browse{
 .popular-row, .trending-row, .top-rated-row, .upcoming-row, .all-row {
   color: #fff;
   margin:0 2rem;
-  margin-top: -1rem;
+
 }
 
 
@@ -191,13 +191,16 @@ button .browse{
 }
 
 #showcase{
+  height: 85vh;
   .jumbotron{
     background-position-y: top;
-    height: 95vh;
     width: 100%;
+    height: 100%;
     font-size: 15px;
+    position: relative;
     .left-content{
       h1{
+        padding-top: 5rem;
         font-size: 25px;
       }
     button{
@@ -210,7 +213,7 @@ button .browse{
 
   .overlay{
     position: absolute;
-    top: 68px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -233,6 +236,7 @@ button .browse{
   color: grey;
   .fab{
     font-size: 30px;
+
     color: grey;
     padding: .5rem;
   
